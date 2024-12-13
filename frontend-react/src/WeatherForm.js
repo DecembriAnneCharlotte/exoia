@@ -35,7 +35,9 @@ const WeatherForm = () => {
   };
 
     try {
-      const response = await fetch("http://localhost:8000/predict", {
+      const response = await fetch("http://34.155.24.177:8000/predict", {
+      // const response = await fetch("http://localhost:8000/predict", {
+
         method: "POST",
         headers: {
           "Content-Type": "application/json",
