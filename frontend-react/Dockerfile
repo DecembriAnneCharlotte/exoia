@@ -14,4 +14,4 @@ COPY . .
 EXPOSE 3000
 
 # Lancer l'application React
-CMD ["npm", "start", "uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "${PORT}"]
+CMD ["npm", "start"]
